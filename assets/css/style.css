@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("../images/trivia\ game.jpg");
+}
+
+.container{
+    background: rgb(250, 199, 110);
+    width: 960px;
+    height: auto;
+    margin-left: 290px;
+    margin-right: 200px;
+   
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: blue;
+    font-size: 80px;
+    text-align: center;
+    padding: 40px;
+}
+
+.startBtn {
+    align-content: center;
+    width: 500px;
+    height: 100px;
+    margin: 50px 200px 100px 200px;
+}
+
+#timeLeft{
+    color: darkgreen;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+#questions-container{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+   
+}
+
+possible{
+    text-align: center;
+    font-size: 10px;
+   
+} 
