@@ -213,7 +213,7 @@ function endGame(){
         $("#messageDiv").html("All Done!");
     });
     
-}
+};
 endGame();
 });
 }
