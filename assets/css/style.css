@@ -49,4 +49,20 @@ possible{
     text-align: center;
     font-size: 10px;
    
-} 
+}
+
+#messageDiv{
+    font-family: 'Aldrich', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+
+}
+
+.result{
+    font-family: 'Aldrich', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px;   
+}

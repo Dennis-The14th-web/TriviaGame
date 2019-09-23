@@ -74,6 +74,7 @@ var playGame = {
                         if (number === 0){
                             stop();
                             checkAnswers();
+                            $("#messageDiv").html("Time Up!");
                         }
                     }
         
@@ -149,7 +150,7 @@ var playGame = {
                         }
                         // console.log(checkAnswers);
                          end();
-                        $(".result").html("correct: " + correct + "<br>" + "incorrect: " + incorrect + "<br>" + "unanswered: " + unAnswered);
+                        $(".result").html("Correct Answers: " + correct + "<br>" + "Incorrect Answers: " + incorrect + "<br>" + "Unanswered: " + unAnswered);
                     }
         
                     function checkAnswered(question){
