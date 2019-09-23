@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url("../images/trivia\ game.jpg");
+    background: url("../images/trivia\ game3.jpg");
 }
 
 .container{
@@ -25,7 +25,6 @@ h1{
 }
 
 .startBtn {
-    align-content: center;
     width: 500px;
     height: 100px;
     margin: 50px 200px 100px 200px;
@@ -40,14 +39,16 @@ h1{
 
 #questions-container{
     text-align: center;
-    font-size: 20px;
-    line-height: 40px;
-   
+    font-size: 15px;
+    line-height: 2px;
+
 }
 
-possible{
+h4{
     text-align: center;
-    font-size: 10px;
+    line-height: 40px;
+    margin-bottom: -30px;
+    line-height: 100px;
    
 }
 
@@ -66,3 +67,10 @@ possible{
     margin-bottom: 20px;
     padding: 20px;   
 }
+
+.doneButton{
+    width: 300px;
+    height: 80px;
+    margin: 50px 200px 50px 300px;
+}
+
