@@ -88,7 +88,7 @@ var number = 100;
 function decrement(){
     $("#timeLeft").on("click", run);
     number--;
-    $("#timeLeft").html("Time Remaining: " + number + "seconds");
+    $("#timeLeft").html("Time Remaining: " + number + " " +"Seconds");
     if (number === 0){
         stop();
         checkAnswers();
