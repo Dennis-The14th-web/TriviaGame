@@ -18,5 +18,6 @@
 
 - Computer will display amount of questions passed and failed when time elapsed
 
+## App View and Live Link
 
-
+<a href="https://dennis-the14th-web.github.io/TriviaGame/"><img src="assets/images/trivia.PNG"></a>
