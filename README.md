@@ -14,9 +14,9 @@
 
 ## About App
 
-- User gets to answer questions selected by the computer in a time frame
+- User gets to answer questions selected by the computer in a time frame.
 
-- Computer will display amount of questions passed and failed when time elapsed
+- Computer will display amount of questions passed, failed and unanswered when time elapsed.
 
 ## App View and Live Link
 
