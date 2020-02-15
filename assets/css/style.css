@@ -16,7 +16,7 @@ body{
 
 h1{
     font-family: 'Fredericka the Great', cursive;
-    color: blue;
+    color: rgb(62, 62, 245);
     font-size: 80px;
     text-align: center;
     padding: 40px;
@@ -29,7 +29,7 @@ h1{
 }
 
 #timeLeft{
-    color: darkgreen;
+    color: rgb(5, 104, 5);
     text-align: center;
     font-size: 25px;
     margin-bottom: 35px;
@@ -102,9 +102,15 @@ h4{
         line-height: 60px;
         font-size: 15px;  
     }
+    #questions-container{
+        text-align: center;
+        font-size: 11px;
+        line-height: 2px;
+    
+    }
     h1{
         font-family: 'Fredericka the Great', cursive;
-        color: blue;
+        color: rgb(62, 62, 245);
         font-size: 28px;
         text-align: center;
         padding: 40px;
