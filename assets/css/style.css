@@ -39,15 +39,13 @@ h1{
     text-align: center;
     font-size: 15px;
     line-height: 2px;
-
 }
 
 h4{
     text-align: center;
     line-height: 40px;
     margin-bottom: -30px;
-    line-height: 100px;
-   
+    line-height: 100px;   
 }
 
 #messageDiv{
@@ -55,7 +53,6 @@ h4{
     text-align: center;
     font-size: 45px;
     padding: 20px;
-
 }
 
 .result{
@@ -106,8 +103,8 @@ h4{
         text-align: center;
         font-size: 11px;
         line-height: 2px;
-    
     }
+
     h1{
         font-family: 'Fredericka the Great', cursive;
         color: rgb(62, 62, 245);
