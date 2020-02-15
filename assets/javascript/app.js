@@ -76,8 +76,7 @@ var playGame = {
             choices: ["1000", "1100", "100", "10", "1", "10000"],
             id: "question-twelve",
             answer: 2
-        }
-       
+        }      
 ]};
 
 //this function controls the timer, decrement and stops time appropriately 
@@ -118,7 +117,6 @@ function formTemplate(data) {
     }
     return qString + "</form>";
 }
-
 window.formTemplate = formTemplate;
 
 // this function holds the questions and answers
@@ -153,7 +151,6 @@ function resultsTemplate(question) {
 
 //this holds the chosen answers to the questions and distinguish between correct and incorrect answered choice 
 function checkAnswers (){
-
     var resultHTML = "";
     var guessedAnswer = [];
     var correct = 0;
