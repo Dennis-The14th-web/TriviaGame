@@ -18,6 +18,8 @@
 
 - Computer will display amount of questions passed, failed and unanswered when time elapsed.
 
+- THis app is responsive to any device or mobile device.
+
 ## App View and Live Link
 
 <a href="https://dennis-the14th-web.github.io/TriviaGame/"><img src="assets/images/trivia.PNG"></a>
