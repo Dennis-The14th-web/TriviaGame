@@ -208,8 +208,7 @@ function endGame(){
         $("#timeLeft").hide();
         $(".doneButton").hide();
         $("#messageDiv").html("All Done!");
-    });
-    
+    });   
 };
 endGame();
 });
