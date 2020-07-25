@@ -22,7 +22,7 @@ h1{
     padding: 40px;
 }
 
-.startBtn {
+#startBtn {
     width: 100%;
     height: auto;
     margin: auto;
@@ -55,18 +55,26 @@ h4{
     padding: 20px;
 }
 
-.result{
+#result{
+    color: #0000ff;
     font-family: 'Aldrich', sans-serif;
     text-align: center;
     font-size: 15px;
+    font-weight: bolder;
     margin-bottom: 20px;
     padding: 20px;   
 }
 
-.doneButton{
+#doneButton{
     width: 100%;
     height: auto;
     margin-top: 40px;
+}
+
+#resetButton{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 /* .................MEDIA.................. */

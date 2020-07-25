@@ -1,12 +1,13 @@
 // this fuction start the game 
 // when button is pressed it fades out and question page appears
-$(".doneButton").hide();
+$("#doneButton").hide();
+$("#resetButton").hide();
 
 function startGame(){
-    $(".startBtn").on("click", function(){
-        $(this).hide(".startBtn");
+    $("#startBtn").on("click", ()=>{
+        $(this).hide("#startBtn");
         displayQuestions();
-        $(".doneButton").show();
+        $("#doneButton").show();
     });
 }
 startGame();
@@ -82,7 +83,7 @@ var playGame = {
 //this function controls the timer, decrement and stops time appropriately 
 // displays time up at exactly zero 
 
-var number = 100;
+var number = 10;
 
 function decrement(){
     $("#timeLeft").on("click", run);
@@ -171,7 +172,7 @@ function checkAnswers (){
     }
     // console.log(checkAnswers);
      end();
-    $(".result").html("Correct Answers: " + correct + "<br>" + "Incorrect Answers: " + incorrect + "<br>" + "Unanswered: " + unAnswered);
+    $("#result").html("Correct Answers: " + correct + "<br>" + "Incorrect Answers: " + incorrect + "<br>" + "Unanswered: " + unAnswered);
 }
 
 function checkAnswered(question){
@@ -192,7 +193,7 @@ function end() {
     if (number === 0){
          $("#questions-container").hide();
          $("#timeLeft").hide();
-         $(".doneButton").hide();
+         $("#doneButton").hide();
          $("#messageDiv").html("All Done!");
     }    
 }
@@ -201,16 +202,29 @@ end();
 // this helps to display the game when started
 
 function endGame(){
-    $(".doneButton").on("click", function(){
+    $("#doneButton").on("click", ()=>{
         checkAnswers();
         stop();
         $("#questions-container").hide();
         $("#timeLeft").hide();
-        $(".doneButton").hide();
+        $("#doneButton").hide();
         $("#messageDiv").html("All Done!");
+        $("#resetButton").show();
+               
     });   
 };
 endGame();
 });
+
+// this will restart the game all over
+function rstart() {
+    $("#resetButton").on("click", ()=>{
+        location.reload(true);
+    });
+};
+rstart();
 }
+
+
+
 
