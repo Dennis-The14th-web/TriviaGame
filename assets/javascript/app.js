@@ -83,7 +83,7 @@ var playGame = {
 //this function controls the timer, decrement and stops time appropriately 
 // displays time up at exactly zero 
 
-var number = 10;
+var number = 100;
 
 function decrement(){
     $("#timeLeft").on("click", run);
