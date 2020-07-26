@@ -195,6 +195,7 @@ function end() {
          $("#timeLeft").hide();
          $("#doneButton").hide();
          $("#messageDiv").html("All Done!");
+         $("#resetButton").show();
     }    
 }
 end();

@@ -4,12 +4,16 @@
 }
 
 body{
-    background: url("../images/trivia\ game3.jpg");
+    background: url("../images/advance\ trivia.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat; 
 }
 
 .container{
-    background: rgb(250, 199, 110);
-     width: auto; 
+    background: #fff;
+    visibility: visible;
+    width: auto; 
     height: auto;
     margin-top: 40px;
 }
@@ -75,6 +79,19 @@ h4{
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+}
+
+.footer {
+    color: #fff;
+    padding: 10px;
+}
+
+.fa {
+    color: #fff;
+}
+
+#container {
+    text-align: center;
 }
 
 /* .................MEDIA.................. */
