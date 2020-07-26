@@ -20,6 +20,6 @@
 
 - THis app is responsive to any device or mobile device.
 
-## App View and Live Link
+## App View: Click Me
 
 <a href="https://dennis-the14th-web.github.io/TriviaGame/"><img src="assets/images/trivia.PNG"></a>

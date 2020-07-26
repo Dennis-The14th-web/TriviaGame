@@ -4,7 +4,7 @@ $("#doneButton").hide();
 $("#resetButton").hide();
 
 function startGame(){
-    $("#startBtn").on("click", ()=>{
+    $("#startBtn").on("click", function(){
         $(this).hide("#startBtn");
         displayQuestions();
         $("#doneButton").show();
